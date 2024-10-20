@@ -6,6 +6,7 @@
 
 body {
     background-color: rgb(234, 183, 65);
+   /*  min-height: 100vh; */
 }
 
 header {
@@ -31,10 +32,12 @@ header h4 {
     min-height: 140px;
     background-color: rgb(218, 163, 35);
     border-radius: 30px;
+    padding: 20px;
 }
 
 .content {
     display: flex;
+    margin: 30px;
 }
 
 
