@@ -1,0 +1,52 @@
+* {
+    background-color: rgb(234, 183, 65);
+    margin: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: baseline;
+    color: antiquewhite;
+}
+
+header h4 {
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: space-around;
+    min-height: 140px;
+}
+
+.content {
+    display: flex;
+}
+
+
+.reflections {
+    width: 60%;
+}
+
+.question-board {
+    background-color: antiquewhite;
+    min-height: 200px;
+}
+
+.priorities {
+   width: 40%
+}
+
+.top-3-list {
+    background-color: antiquewhite;
+    min-height: 80px;
+   
+
+}
+.intention-box {
+    background-color: antiquewhite;
+    min-height: 30px;
+}
