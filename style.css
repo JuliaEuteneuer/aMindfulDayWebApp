@@ -25,6 +25,13 @@ header h4 {
     font-style: italic;
 }
 
+.day {
+    /*color:  rgb(218, 163, 35);*/
+    color: white;
+    
+    /*text-shadow: 1px 1px antiquewhite;*/
+}
+
 .dashboard {
     display: flex;
     justify-content: space-around;

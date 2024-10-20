@@ -3,6 +3,7 @@
 function setDate() {
 
     const date = document.getElementById('date');
+    const currWeekday = document.getElementById('day')
     const today = new Date();
      
     const weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -13,8 +14,9 @@ function setDate() {
     const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     const month = months[today.getMonth()]; // number 0-11
 
-    const todaysDate = weekday + ", " + day +"th " + month;
+    const todaysDate = /*weekday + ", " + day +"th " + month;*/ month + " "+day+ "th"
     date.innerHTML = todaysDate;
+    currWeekday.innerText = weekday;
 
 }
 
