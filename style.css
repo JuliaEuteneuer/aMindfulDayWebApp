@@ -1,14 +1,22 @@
 * {
-    background-color: rgb(234, 183, 65);
     margin: 10px;
     text-align: center;
     box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(234, 183, 65);
 }
 
 header {
     display: flex;
     align-items: baseline;
     color: antiquewhite;
+}
+
+.sun {
+    color: rgb(218, 163, 35);
+    font-size: 36px;
 }
 
 header h4 {
@@ -19,7 +27,10 @@ header h4 {
 .dashboard {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     min-height: 140px;
+    background-color: rgb(218, 163, 35);
+    border-radius: 30px;
 }
 
 .content {
@@ -31,22 +42,32 @@ header h4 {
     width: 60%;
 }
 
+.quote {
+    min-height: 48px;
+}
+
 .question-board {
     background-color: antiquewhite;
     min-height: 200px;
 }
 
+
 .priorities {
-   width: 40%
+   width: 40%;
+   margin-top: 30px;
 }
 
 .top-3-list {
     background-color: antiquewhite;
-    min-height: 80px;
+    min-height: 120px;
+    text-align: left;
+    font-size: 14px;
+    color: rgb(218, 163, 35);
+
    
 
 }
 .intention-box {
     background-color: antiquewhite;
-    min-height: 30px;
+    min-height: 60px;
 }
